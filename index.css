@@ -31,7 +31,7 @@ header {
     font-family: 'Syncopate', sans-serif;
     font-size: 1rem;
     padding: 2%;
-    background-image: linear-gradient(to bottom,white, #9CC4B2);
+    background: rgba(255, 255, 255, 1);
     z-index: 1;
 }
 #top-header nav a {
@@ -52,11 +52,11 @@ header {
     color: white;
 }
 #info-container h2 {
-    margin-top: 68%;
+    margin-top: 66%;
     width: 100%;
     padding: 3%;
     z-index: 1;
-    font-size: 2.2rem;
+    font-size: 2.1rem;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     color: black;
     font-weight: 600;
@@ -70,7 +70,7 @@ header {
     font-size: 2rem;
     color:white;
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    background-color: rgba(11, 41, 28, .5);
+    background-color: rgba(11, 41, 28, .7);
     text-decoration: none;
 }
 
