@@ -1,5 +1,5 @@
 * {
-    border: 1px solid grey !important;
+    /* border: 1px solid grey !important; */
 }
 html {
     font-size: 62.5%;
@@ -9,22 +9,38 @@ header {
     height: 100vh;
 }
 #top-header {
+    background-image: url("assets/happy-ethnic-woman-sitting-at-table-with-laptop-3769021.jpg");
+    background-size: cover;
     height: 75%;
     width: 100%;
+}
+#top-header::after {
+    content: "";
+    background-image: linear-gradient(to top, white, #9CC4B2);
+    opacity: .3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 75%;
+    position: absolute;
+    z-index: 0; 
 }
 #top-header nav {
     text-align: center;
     font-family: 'Syncopate', sans-serif;
     font-size: 1rem;
     padding: 2%;
-    text-decoration: none;
+    background-image: linear-gradient(to bottom,white, #9CC4B2);
+    z-index: 1;
 }
 #top-header nav a {
-    text-decoration: none;
+    color: black;
 }
 #info-container {
     display:flex;
     flex-direction: column;
+    align-items: center;
     text-align: center;
 }
 #info-container h1 {
@@ -32,16 +48,56 @@ header {
     margin-top: 10%;
     font-size: 4rem;
     font-family: 'Yanone Kaffeesatz', sans-serif;
+    z-index: 1;
+    color: white;
 }
 #info-container h2 {
-    margin-top: 60%;
+    margin-top: 68%;
+    width: 100%;
     padding: 3%;
+    z-index: 1;
+    font-size: 2.2rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: black;
+    font-weight: 600;
+    background: rgba(255, 255, 255, .3)
+
 }
 #info-container a {
-    margin-top: 5%;
-    padding: 1%;
+    margin-top:2%;
+    padding: 3% 9%;
+    z-index: 1;
+    font-size: 2rem;
+    color:white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    background-color: rgba(11, 41, 28, .5);
+    text-decoration: none;
 }
 
 #lower-header {
     height: 25%;
+    background-color: ivory;
+    color: black;
+}
+#lower-header h3 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 6%;
+    font-family: 'Staatliches', cursive;
+}
+#icon-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon {
+    text-align: center;
+}
+.icon i {
+    font-size: 3rem;
+}
+.icon p {
+    font-size: 1.1rem;
+    padding: 8%;
+    font-family: 'Staatliches', cursive;
 }
