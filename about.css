@@ -5,19 +5,20 @@ html {
     font-size: 62.5%;
 }
 header {
-    height: 100vh;
+    height: 25vh;
 }
 nav {
+    display: flex;
+    justify-content: space-between;
     font-family: 'Syncopate', sans-serif;
-    font-size: 1rem;
+    font-size: 1.3rem;
     padding: 2%;
     color: black;
     background-color: #E2EDE8;
 }
 nav a {
     color: black;
-    border-right: 2px solid black;
-    padding-right: 1%;
+    padding: 2%;
 }
 
 h1 {

@@ -14,7 +14,7 @@ header {
     height: 75%;
     width: 100%;
 }
-#top-header::after {
+#info-container::after {
     content: "";
     background-image: linear-gradient(to top, white, #9CC4B2);
     opacity: .3;
@@ -29,14 +29,15 @@ header {
 #top-header nav {
     text-align: center;
     font-family: 'Syncopate', sans-serif;
-    font-size: 1rem;
-    padding: 2%;
+    font-size: 1.3rem;
+    padding: 4%;
     background: rgba(255, 255, 255, 1);
     z-index: 1;
 }
 #top-header nav a {
     color: black;
     z-index: 1;
+    padding: 2% !important;
 }
 #info-container {
     display:flex;
@@ -46,7 +47,7 @@ header {
 }
 #info-container h1 {
     padding: 3%;
-    margin-top: 10%;
+    margin-top: 6%;
     font-size: 4rem;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     z-index: 1;
