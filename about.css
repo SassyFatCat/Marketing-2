@@ -1,3 +1,38 @@
 * {
-    border: 1px solid grey !important;
+    /* border: 1px solid grey !important; */
+}
+html {
+    font-size: 62.5%;
+}
+header {
+    height: 100vh;
+}
+nav {
+    font-family: 'Syncopate', sans-serif;
+    font-size: 1rem;
+    padding: 2%;
+    color: black;
+    background-color: #E2EDE8;
+}
+nav a {
+    color: black;
+    border-right: 2px solid black;
+    padding-right: 1%;
+}
+
+h1 {
+    padding: 13% 3% 10% 3%;
+    font-size: 4rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    z-index: 1;
+    color: black;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 2px solid black;
+}
+h2 {
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }

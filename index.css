@@ -36,6 +36,7 @@ header {
 }
 #top-header nav a {
     color: black;
+    z-index: 1;
 }
 #info-container {
     display:flex;
