@@ -1,3 +1,47 @@
 * {
     border: 1px solid grey !important;
 }
+html {
+    font-size: 62.5%;
+}
+/*HEADER=====HEADER=====HEADER=====HEADER=====HEADER=====HEADER=====*/
+header {
+    height: 100vh;
+}
+#top-header {
+    height: 75%;
+    width: 100%;
+}
+#top-header nav {
+    text-align: center;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 1rem;
+    padding: 2%;
+    text-decoration: none;
+}
+#top-header nav a {
+    text-decoration: none;
+}
+#info-container {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+#info-container h1 {
+    padding: 3%;
+    margin-top: 10%;
+    font-size: 4rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+#info-container h2 {
+    margin-top: 60%;
+    padding: 3%;
+}
+#info-container a {
+    margin-top: 5%;
+    padding: 1%;
+}
+
+#lower-header {
+    height: 25%;
+}
