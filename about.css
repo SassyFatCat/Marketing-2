@@ -24,7 +24,7 @@ nav a {
     color: black;
 }
 h1 {
-    padding: 22% 3% 10% 3%;
+    padding: 20% 3% 5% 3%;
     font-size: 4rem;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     z-index: 1;
@@ -40,7 +40,7 @@ h1 {
 }
 #mission-img {
     width: 100%;
-    margin-top: 6%;
+    margin-top: 2%;
     height: 35%;
     background: url("assets/man-holding-and-taking-photo-using-black-dslr-camera-3322296.jpg");
     background-size: cover;
@@ -48,28 +48,43 @@ h1 {
     -webkit-filter: blur(2.5px);
     background-position: center;
 }
+
+#mission-img::after {
+    content: "";
+    background-image: linear-gradient(to top, white, #9CC4B2);
+    opacity: .2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    position: absolute;
+    z-index: 0; 
+}
 #mission-text {
     width: 80%;
     margin: 0 auto;
     text-align: left;
-    color: white;
+    color: black;
     z-index: 2;
     position: relative;
-    top: -22vh;
+    top: -24vh;
     left: -6%;
     font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 600;
 }
 #mission-text h2 {
     font-size: 3rem;
     display:inline-block;
-    background-color: rgba(0,0,0,.8);
+    background-color:rgba(226, 237, 232, .7);
     padding: 3%;
 }
 #mission-text p {
     font-size: 1.8rem;
-    margin-top: 2%;
-    background-color: rgba(0,0,0,.8);
+    margin-top: 8%;
+    background-color: rgba(226, 237, 232, .7);
     padding: 3%;
+    font-weight: 700;
 }
 
 
