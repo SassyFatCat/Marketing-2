@@ -182,15 +182,6 @@ h1 {
     font-size: 8rem;
 }
 
-footer nav {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    font-family: 'Syncopate', sans-serif;
-    font-size: 1.3rem;
-    color: black;
-    background-color: #E2EDE8;
-}
 #signup {
     display:inline-block;
     font-size: 4rem;
@@ -201,17 +192,19 @@ footer nav {
     background-color: rgba(11, 41, 28, .7);
     text-decoration: none;
     padding: 2vh 5%;
-
 }
-footer nav a {
-    color: black;
-    display:inline-block;
-    color: black;
-    width: 50%;
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E2EDE8;
     height: 7vh;
-    padding: 3vh;
-    font-size: 1.3rem;
-    text-align: center;
+}
+footer h4 {
+    display:block;
+    font-size: 2rem;
+    background-color: #E2EDE8;
+    font-family: 'Syncopate', sans-serif;
 }
 
 /*============================================================================*/
