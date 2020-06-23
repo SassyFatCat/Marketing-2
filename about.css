@@ -11,6 +11,7 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
+    height: 20vh;
     position: fixed;
     width: 100%;
     font-family: 'Syncopate', sans-serif;

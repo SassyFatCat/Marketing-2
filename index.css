@@ -29,15 +29,15 @@ header {
 #top-header nav {
     text-align: center;
     font-family: 'Syncopate', sans-serif;
-    font-size: 1.3rem;
-    padding: 4%;
+    font-size: 1.3rem;'
+    height: 25% !important;
+    /* padding: 4%; */
     background: rgba(255, 255, 255, 1);
     z-index: 1;
 }
 #top-header nav a {
     color: black;
     z-index: 1;
-    padding: 2% !important;
 }
 #info-container {
     display:flex;
