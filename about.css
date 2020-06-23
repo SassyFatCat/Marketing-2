@@ -294,7 +294,7 @@ footer h4 {
         margin-top: 2vh;
         width: 100%;
     }
-    #mission-text p {
-        margin-top: 3%;
+    #mission-text {
+        top: -27vh;
     }
 }
