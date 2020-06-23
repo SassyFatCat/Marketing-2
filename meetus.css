@@ -66,12 +66,14 @@ section {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 4rem;
     margin: 2vh 2vw .5vh 2vw;
+    text-align: center;
 }
 .person h4 {
     font-family: 'Staatliches', cursive;
     font-weight: 100;
     font-size: 2.5rem;
     margin-bottom: .5vh;
+    text-align: center;
 }
 .person p {
     font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -79,6 +81,7 @@ section {
     font-weight: 600;
     text-align: center;
     padding-bottom: 1.5%;
+    text-align: center;
 }
 
 
