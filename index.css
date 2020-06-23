@@ -6,54 +6,52 @@ html {
 }
 /*HEADER=====HEADER=====HEADER=====HEADER=====HEADER=====HEADER=====*/
 header {
-    height: 100vh;
+    /* height: 7vh; */
 }
-#top-header {
-    background-image: url("assets/happy-ethnic-woman-sitting-at-table-with-laptop-3769021.jpg");
-    background-size: cover;
-    height: 75%;
-    width: 100%;
-}
-#info-container::after {
-    content: "";
-    background-image: linear-gradient(to top, white, #9CC4B2);
-    opacity: .3;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    height: 75%;
-    position: absolute;
-    z-index: 0; 
-}
-#top-header nav {
-    text-align: center;
-    font-family: 'Syncopate', sans-serif;
+nav {
     font-size: 1.3rem;
     padding: 4%;
-    background: rgba(255, 255, 255, 1);
-    z-index: 1;
+    background-color: #E2EDE8;
+    font-family: 'Syncopate', sans-serif;
+    text-align: center;
 }
-#top-header nav a {
-    color: black;
-    z-index: 1;
-}
-#info-container {
+#top {
+    background-image: url("assets/happy-ethnic-woman-sitting-at-table-with-laptop-3769021.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 68vh;
+    width: 100%;
     display:flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
-#info-container h1 {
+h1 {
     padding: 3%;
-    margin-top: 6%;
     font-size: 4rem;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     z-index: 1;
-    color: white;
+    color: black;
+    text-align: center;
+    margin-top: 5%;
 }
-#info-container h2 {
-    margin-top: 66%;
+
+#top::after {
+    content: "";
+    background-image: linear-gradient(to top, white, #9CC4B2);
+    opacity: .3;
+    top: 6.5vh;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 68.1vh;
+    width: 100%;
+    position: absolute;
+    z-index: 0; 
+}
+
+#top h2 {
+    margin-top: 32vh;
     width: 100%;
     padding: 3%;
     z-index: 1;
@@ -64,7 +62,7 @@ header {
     background: rgba(255, 255, 255, .3)
 
 }
-#info-container a {
+#top a {
     margin-top:2%;
     padding: 3% 9%;
     z-index: 1;
@@ -73,14 +71,15 @@ header {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     background-color: rgba(11, 41, 28, .7);
     text-decoration: none;
+    z-index: 1;
 }
 
-#lower-header {
-    height: 25%;
+#lower {
+    height: 25vh;
     background-color: ivory;
     color: black;
 }
-#lower-header h3 {
+#lower h3 {
     font-size: 2rem;
     text-align: center;
     padding: 6%;
