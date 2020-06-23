@@ -17,7 +17,7 @@ nav {
     width: 100%;
     font-family: 'Syncopate', sans-serif;
     font-size: 1.3rem;
-    padding: 4%;
+    padding: 3vh 4%;
     color: black;
     background-color: #E2EDE8;
     z-index: 999;
@@ -26,7 +26,7 @@ nav a {
     color: black;
 }
 h1 {
-    padding: 20% 3% 5% 3%;
+    padding: 12vh 3% 1vh 3%;
     font-size: 4rem;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     z-index: 1;
@@ -82,13 +82,13 @@ h1 {
     font-size: 3rem;
     display:inline-block;
     background-color:rgba(226, 237, 232, .6);
-    padding: 3%;
+    padding: 2vh;
 }
 #mission-text p {
     font-size: 1.8rem;
     margin-top: 4%;
     background-color: rgba(226, 237, 232, .6);
-    padding: 3%;
+    padding: 2vh;
     font-weight: 700;
 }
 

@@ -6,14 +6,15 @@ html {
 }
 /*HEADER=====HEADER=====HEADER=====HEADER=====HEADER=====HEADER=====*/
 header {
-    /* height: 7vh; */
+    
 }
 nav {
     font-size: 1.3rem;
-    padding: 4%;
+    padding: 3vh;
     background-color: #E2EDE8;
     font-family: 'Syncopate', sans-serif;
     text-align: center;
+    height: 7vh;
 }
 nav a {
     color: black;
@@ -30,20 +31,20 @@ nav a {
     text-align: center;
 }
 h1 {
-    padding: 3%;
+    padding: 1vh 0;
     font-size: 4rem;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     z-index: 1;
     color: black;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 3vh;
 }
 
 #top::after {
     content: "";
     background-image: linear-gradient(to top, white, #9CC4B2);
     opacity: .3;
-    top: 6.5vh;
+    top: 7vh;
     left: 0;
     bottom: 0;
     right: 0;
@@ -54,9 +55,8 @@ h1 {
 }
 
 #top h2 {
-    margin-top: 32vh;
+    margin-top: 38vh;
     width: 100%;
-    padding: 3%;
     z-index: 1;
     font-size: 2.1rem;
     font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -67,7 +67,7 @@ h1 {
 }
 #top a {
     margin-top:2%;
-    padding: 3% 9%;
+    padding: 2vh 6%;
     z-index: 1;
     font-size: 2rem;
     color:white;
@@ -85,7 +85,7 @@ h1 {
 #lower h3 {
     font-size: 2rem;
     text-align: center;
-    padding: 6%;
+    padding: 5vh;
     font-family: 'Staatliches', cursive;
 }
 #icon-container {
@@ -103,4 +103,53 @@ h1 {
     font-size: 1.1rem;
     padding: 8%;
     font-family: 'Staatliches', cursive;
+}
+/*DESKTOP VIEW =================== DESKTOP VIEW =====================*/
+@media (min-width: 630px) {
+#top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 1%;
+    
+}
+#top h2 {
+    margin-top: 0vh;
+    width: 32%;
+    text-align: left;
+    margin-left: 2%;
+}
+h1 {
+    font-size: 4.5rem;
+    font-weight: 900;
+}
+#top a {
+    font-size: 3rem;
+    margin-left: 2%;
+}
+#top {
+    background-image: url("assets/woman-widescreen.jpg");
+}
+}
+
+@media (min-width: 800px) {
+    .icon i {
+        font-size: 4rem;
+    }
+    #lower h3 {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 1000px) {
+    h1 {
+        font-size: 6rem;
+    }
+    #top h2 {
+        font-size: 3rem;
+    }
+    #top a {
+        font-size: 4rem;
+    }
 }
