@@ -139,7 +139,7 @@ h1 {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     text-align: center;
     margin: 5vh auto 0 auto;
-    padding-top: 5vh;
+    padding: 5vh 0 5vh 0;
     border-top: 2px solid black;
 }
 #how-container {
@@ -148,7 +148,22 @@ h1 {
     align-items: center;
 }
 .how-item {
-    width: 90%;
+    width: 60%;
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+.how-item p {
+    font-size: 3rem;
+    width: 70%;
+}
+.item-two {
+    width: 60%;
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /*============================================================================*/
