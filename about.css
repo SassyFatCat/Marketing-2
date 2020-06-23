@@ -1,16 +1,14 @@
 * {
-    border: 1px solid grey !important;
+    /* border: 1px solid grey !important; */
 }
 html {
     font-size: 62.5%;
-    /* background-color: #C9D3D0; */
-    /* background-color: ivory; */
 }
 /*HEADER=====HEADER=====HEADER=====HEADER=====HEADER=====HEADER=====*/
 header {
     height: 25vh;
 }
-nav {
+header nav {
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -21,7 +19,7 @@ nav {
     background-color: #E2EDE8;
     z-index: 999;
 }
-nav a {
+header nav a {
     color: black;
     display:inline-block;
     color: black;
@@ -147,23 +145,73 @@ h1 {
     flex-direction: column;
     align-items: center;
 }
-.how-item {
+#how-item-one {
     width: 60%;
     display:flex;
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
+    background-image: linear-gradient(to right, white, #9CC4B2);
 }
-.how-item p {
+#how-item-two {
+    width: 60%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to left, white, #9CC4B2);
+}
+#how-item-three {
+    width: 60%;
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    background-image: linear-gradient(to right, white, #9CC4B2);
+}
+.items {
+    margin-bottom: 7vh;
+}
+.items p {
     font-size: 3rem;
     width: 70%;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
-.item-two {
-    width: 60%;
-    display:flex;
-    flex-direction: row-reverse;
+.items i {
+    font-size: 8rem;
+}
+
+footer nav {
+    display: flex;
     justify-content: space-between;
-    align-items: center;
+    width: 100%;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 1.3rem;
+    color: black;
+    background-color: #E2EDE8;
+}
+#signup {
+    display:inline-block;
+    font-size: 4rem;
+    margin: 5vh auto;
+    text-align: center;
+    color:white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    background-color: rgba(11, 41, 28, .7);
+    text-decoration: none;
+    padding: 2vh 5%;
+
+}
+footer nav a {
+    color: black;
+    display:inline-block;
+    color: black;
+    width: 50%;
+    height: 7vh;
+    padding: 3vh;
+    font-size: 1.3rem;
+    text-align: center;
 }
 
 /*============================================================================*/
