@@ -133,7 +133,7 @@ h1 {
 }
 #section-two h2 {
     font-size: 6rem;
-    width: 30%;
+    width: 50%;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     text-align: center;
     margin: 5vh auto 0 auto;
@@ -257,5 +257,41 @@ footer h4 {
     #section-two {
         width: 70%;
         margin: 0 auto;
+    }
+}
+@media (max-width: 727px) {
+    #how-item-one, #how-item-two, #how-item-three {
+        width: 80%;
+    }
+    
+    #section-two h2 {
+        font-size: 4rem;
+    }
+    .items p {
+        font-size: 2.5rem;
+    }
+}
+@media (max-width: 727px) {
+    #section-two h2 {
+        font-size: 4rem;
+    }
+    .items p {
+        font-size: 2.5rem;
+    }
+}
+@media (max-width: 501px) {
+    #how-item-one, #how-item-two, #how-item-three {
+        flex-direction: column;
+        background-image: none;
+    }
+    .items i {
+        font-size: 6rem;
+
+    }
+    .items p {
+        display: inline-block;
+        background-image: linear-gradient(to bottom, white, #9CC4B2);
+        margin-top: 2vh;
+        width: 100%;
     }
 }
