@@ -283,6 +283,7 @@ footer h4 {
     #how-item-one, #how-item-two, #how-item-three {
         flex-direction: column;
         background-image: none;
+        text-align: center;
     }
     .items i {
         font-size: 6rem;
