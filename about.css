@@ -17,13 +17,19 @@ nav {
     width: 100%;
     font-family: 'Syncopate', sans-serif;
     font-size: 1.3rem;
-    padding: 3vh 4%;
     color: black;
     background-color: #E2EDE8;
     z-index: 999;
 }
 nav a {
     color: black;
+    display:inline-block;
+    color: black;
+    width: 50%;
+    height: 7vh;
+    padding: 3vh;
+    font-size: 1.3rem;
+    text-align: center;
 }
 h1 {
     padding: 12vh 3% 1vh 3%;
@@ -106,7 +112,7 @@ h1 {
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
-    background-color: #C9D3D0;
+    background-image: linear-gradient(to bottom, white, #9CC4B2);
     color: black;
     padding: 4%;
 }
