@@ -130,7 +130,45 @@ h1 {
     font-weight: 900;
 }
 
-/* #section-two {
-    height: 100vh;
-    width: 100%;
-} */
+/*============================================================================*/
+@media (min-height: 1000px), (min-width: 800px) {
+    .why-features {
+        width: 46%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        background-image: linear-gradient(to bottom, white, #9CC4B2);
+        color: black;
+        padding: 4vh;
+    }
+    .why-features i {
+        font-size: 5rem;
+    }
+    .why-features h2 {
+        font-size: 4rem;
+        font-family: 'Staatliches', cursive;
+        font-weight: 900;
+    }
+    .why-features p {
+        font-size: 2.5rem;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-weight: 900;
+    }
+}
+@media (min-height: 1000px) {
+    .why-features i {
+        font-size: 6rem;
+    }
+    .why-features h2 {
+        font-size: 4.5rem;
+        font-family: 'Staatliches', cursive;
+        font-weight: 900;
+    }
+    .why-features p {
+        font-size: 3rem;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-weight: 900;
+    }
+}
