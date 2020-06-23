@@ -15,6 +15,9 @@ nav {
     font-family: 'Syncopate', sans-serif;
     text-align: center;
 }
+nav a {
+    color: black;
+}
 #top {
     background-image: url("assets/happy-ethnic-woman-sitting-at-table-with-laptop-3769021.jpg");
     background-size: cover;
