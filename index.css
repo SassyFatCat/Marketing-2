@@ -81,7 +81,7 @@ h1 {
 
 
 #lower {
-    height: 25vh;
+    min-height: 25vh;
     background-color: ivory;
     color: black;
 }
