@@ -1,0 +1,138 @@
+* {
+    /* border: 1px solid grey !important; */
+}
+html {
+    font-size: 62.5%;
+}
+header {
+    height: 25vh;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 1.3rem;
+    color: black;
+    background-color: #E2EDE8;
+    z-index: 999;
+}
+header nav a {
+    color: black;
+    display:inline-block;
+    color: black;
+    width: 100%;
+    height: 7vh;
+    padding: 3vh;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+h1 {
+    padding: 12vh 3% 1vh 3%;
+    font-size: 4rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    z-index: 1;
+    color: black;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    border-bottom: 2px solid black;
+}
+
+section {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.person {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 6vh;
+    /* background-color: #9CC4B2; */
+    background-image: linear-gradient(to bottom, white, #9CC4B2);
+    padding: 3% 3% 0 3%;
+}
+.person img {
+    width: 60%;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.person h3 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 4rem;
+    margin: 2vh 2vw .5vh 2vw;
+    text-align: center;
+    font-weight: 600;
+}
+.person h4 {
+    font-family: 'Staatliches', cursive;
+    font-weight: 100;
+    font-size: 2.5rem;
+    margin-bottom: .5vh;
+    text-align: center;
+}
+.person p {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 1.5vh 1.5vw;
+    margin-bottom: 1vh;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: white;
+}
+.person i {
+    padding: 0 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E2EDE8;
+    height: 7vh;
+}
+footer h4 {
+    display:block;
+    font-size: 2rem;
+    background-color: #E2EDE8;
+    font-family: 'Syncopate', sans-serif;
+}
+
+@media (max-width: 572px) {
+    h1 {
+        width: 80%;
+    }
+}
+
+@media (max-width: 999px) {
+    section {
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+    }
+    .person {
+        width: 90%;
+    }
+    
+}
+@media (max-width: 500px) {
+    section {
+        width: 100%;
+    }
+}
+@media (min-width: 900px) {
+    header nav a:hover {
+        background-color: white;
+    }
+}

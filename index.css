@@ -1,0 +1,214 @@
+* {
+    /* border: 1px solid grey !important; */
+}
+html {
+    font-size: 62.5%;
+}
+
+header {
+    
+}
+nav {
+    background-color: #E2EDE8;
+    font-family: 'Syncopate', sans-serif;
+    text-align: center;
+}
+nav a {
+    display:inline-block;
+    color: black;
+    width: 100%;
+    height: 7vh;
+    padding: 3vh;
+    font-size: 1.3rem;
+}
+
+#top {
+    background-image: url("assets/happy-ethnic-woman-sitting-at-table-with-laptop-3769021.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 68vh;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+h1 {
+    padding: 1vh 0;
+    font-size: 4rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    z-index: 1;
+    color: black;
+    text-align: center;
+    margin-top: 3vh;
+}
+
+#top::after {
+    content: "";
+    background-image: linear-gradient(to top, white, #9CC4B2);
+    opacity: .3;
+    top: 7vh;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 68.1vh;
+    width: 100%;
+    position: absolute;
+    z-index: 0; 
+}
+
+#top h2 {
+    margin-top: 38vh;
+    width: 100%;
+    z-index: 1;
+    font-size: 2.1rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: black;
+    font-weight: 600;
+
+}
+#top a {
+    margin-top:2%;
+    padding: 2vh 6%;
+    z-index: 1;
+    font-size: 2rem;
+    color:white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    background-color: rgba(11, 41, 28, .7);
+    text-decoration: none;
+    z-index: 1;
+}
+
+
+#lower {
+    min-height: 25vh;
+    background-color: ivory;
+    color: black;
+}
+#lower h3 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 5vh;
+    font-family: 'Staatliches', cursive;
+}
+#icon-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon {
+    text-align: center;
+}
+.icon i {
+    font-size: 3rem;
+}
+.icon p {
+    font-size: 1.1rem;
+    padding: 8%;
+    font-family: 'Staatliches', cursive;
+}
+#back-video {
+    display: none;
+}
+/*DESKTOP VIEW =================== DESKTOP VIEW =====================*/
+@media (min-width: 630px) {
+#top {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1%;
+    
+}
+#top h2 {
+    margin-top: 0vh;
+    width: 32%;
+    text-align: left;
+    margin-left: 2%;
+}
+h1 {
+    font-size: 4.5rem;
+    font-weight: 900;
+}
+#top a {
+    font-size: 3rem;
+    margin-left: 2%;
+}
+#top {
+    background-image: url(assets/woman-widescreen.jpg);
+}
+}
+
+@media (min-width: 878px) {
+    #back-video {
+        display: initial;
+        position: fixed;
+        top: 7vh;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        overflow: hidden;
+        z-index: 0;
+        height: 68.1vh;
+        width: 100%;
+    }
+    video {
+        height: 68.1vh;
+        width: 100%;
+        object-fit: fill;
+        filter: blur(3px);
+    }
+    #top {
+        background-image: none;
+    }
+    #lower h3 {
+        padding: 3vh 0 3vh 0;
+        font-size: 2rem;
+    }
+    .icon i {
+        font-size: 3.5rem;
+    }
+    .icon p {
+        font-size: 2rem;
+    }
+}
+
+
+@media (min-width: 800px) {
+    .icon i {
+        font-size: 4rem;
+    }
+    #lower h3 {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 1000px) {
+    h1 {
+        font-size: 6rem;
+    }
+    #top h2 {
+        font-size: 3rem;
+    }
+    #top a {
+        font-size: 4rem;
+    }
+    #lower h3 {
+        padding: 3vh 0 3vh 0;
+    }
+    .icon i {
+        font-size: 4rem;
+    }
+    .icon p {
+        font-size: 2rem;
+    }
+}
+@media (min-width: 900px) {
+    #top a:hover {
+        background-color:white;
+        color:black;
+        text-decoration: underline;
+    }
+    nav a:hover {
+        background-color:white;
+    }
+}
